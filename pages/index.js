@@ -3,7 +3,10 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 //import { global } from "styled-jsx/css";
 import styles from "@/styles/Home.module.css";
-import AboutPage from "./AboutPage";
+// import additionalStyles from './Working.module.css';
+import AboutPage from "./about";
+import WorkSection from "./work";
+import ContactPage from "./contact";
 
 const inter = Inter({ subsets: ["latin"] });
 //console.log(styles);
@@ -36,12 +39,29 @@ export default function Home() {
   );
 }
 
-const Index = () => {
+const about = () => {
   return (
     <div>
       <h1>Welcome to my Next.js website!</h1>
       <AboutPage />
-      {/* Add more components or content as needed */}
+    </div>
+  );
+};
+
+const work = () => {
+  return (
+    <div>
+      <h1>Welcome to my Next.js website!</h1>
+      <WorkSection />
+    </div>
+  );
+};
+
+const contact = () => {
+  return (
+    <div>
+      <h1>Welcome to my Next.js website!</h1>
+      <ContactPage />
     </div>
   );
 };

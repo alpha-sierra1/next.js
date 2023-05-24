@@ -1,4 +1,5 @@
 import Image from "next/image";
+import styles from "@/styles/Home.module.css";
 
 const AboutPage = () => {
   return (
@@ -16,7 +17,7 @@ const AboutPage = () => {
         <div className="working-image-div">
           {/* pic-1 class has been removed */}
           <Image
-            src="/public/aditi-about.jpg"
+            src="/../public/aditi-about.jpg"
             alt="aditi's picture"
             className="working-about-image"
             width={800}
