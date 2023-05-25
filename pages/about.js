@@ -1,12 +1,13 @@
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
+import additionalStyles from "@/styles/About.module.css";
 
 const AboutPage = () => {
   return (
-    <body>
+    <div>
       <main style={{ background: "black" }}>
         <section className="section-2">
-          <h1 className="about-heading">
+          <h1 className="aboutHeading">
             I bring <span className="color-tag-1">websites to life</span> with
             eye-catching designs and seamless functionality.
           </h1>
@@ -58,7 +59,7 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-    </body>
+    </div>
   );
 };
 

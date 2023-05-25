@@ -1,0 +1,75 @@
+.section-2 {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  max-width: 1024px;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.aboutHeading {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  animation-name: slide-up;
+  animation-duration: 0.5s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-up {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.color-tag-1 {
+  color: #a87317;
+}
+
+.section-3 {
+  display: flex;
+
+  /* justify-content: space-around; */
+}
+
+.pic-1 {
+  height: 50rem;
+  /* width: 35rem; */
+  transform: translateY(-12%);
+  padding-left: 6rem;
+  /* transform: translateX(20%); */
+}
+
+.description-heading {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  /* padding: 4.5rem 3rem 0.5rem 5rem; */
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  /* padding: 1rem 3rem 0.5rem 5rem; */
+}
+.logo-1 {
+  width: 9rem;
+  /* padding-left: 2rem; */
+}
+
+.logo {
+  margin-right: auto;
+}
