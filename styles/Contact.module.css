@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;1,800&display=swap");
+
+.contact {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 18rem 10rem 14rem 10rem;
+  opacity: 0;
+  transform: translateY(70px);
+  animation-name: slide-up;
+  animation-duration: 0.5s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-up {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.colorTag1 {
+  color: #a87317;
+}
+.contactHeading {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding-left: 16rem;
+  padding-right: 5rem;
+  font-weight: 600;
+}
+
+.contact2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 16rem;
+  font-weight: 300;
+  margin-top: 20px;
+  padding-right: 10rem;
+  line-height: 1.7;
+  letter-spacing: 0.3px;
+}
+
+.contactLink {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #a87317;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 16rem;
+  /* transition: transform 0.3s ease-in-out; */
+}
+
+.contactColumn1 {
+  margin-top: 2rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+.contact-column-1:hover {
+  transform: translateX(1%);
+}
+
+.contactColumn2 {
+  margin-top: 2rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+.contact-column-2:hover {
+  transform: translateX(1%);
+}
+
+.contactColumn3 {
+  margin-top: 2rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+.contact-column-3:hover {
+  transform: translateX(1%);
+}

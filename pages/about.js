@@ -1,37 +1,39 @@
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/About.module.css";
 import additionalStyles from "@/styles/About.module.css";
 
 const AboutPage = () => {
   return (
     <div>
       <main style={{ background: "black" }}>
-        <section className="section-2">
-          <h1 className="aboutHeading">
-            I bring <span className="color-tag-1">websites to life</span> with
-            eye-catching designs and seamless functionality.
+        <section className={styles.section2}>
+          <h1 className={styles.aboutHeading}>
+            I bring <span className={styles.colorTag1}>websites to life</span>{" "}
+            with eye-catching designs and seamless functionality.
           </h1>
         </section>
       </main>
 
-      <section className="section-3 working-about-description">
-        <div className="working-image-div">
+      <section
+        className={`${styles.section3} ${styles["working-about-description"]}`}
+      >
+        <div className={styles.workingImageDiv}>
           {/* pic-1 class has been removed */}
           <Image
             src="/../public/aditi-about.jpg"
             alt="aditi's picture"
-            className="working-about-image"
+            className={styles.workingAboutImage}
             width={800}
             height={600}
           />
         </div>
-        <div className="working-about-section">
-          <h2 className="description-heading">
-            <span className="color-tag-1">Hey there,</span> I ama Aditi - an MBA
-            grad turned into front-end developer!
+        <div className={styles.workingAboutSection}>
+          <h2 className={styles.descriptionHeading}>
+            <span className={styles.colorTag1}>Hey there,</span> I am Aditi - an
+            MBA grad turned into front-end developer!
           </h2>
-          <div className="flex-main">
-            <p className="description">
+          <div>
+            <p className={styles.description}>
               Do not let the degree fool you though - my real passion lies in
               creating visually stunning interfaces that make users go wow When
               I am not busy crafting code that would make even the Terminator
@@ -39,7 +41,7 @@ const AboutPage = () => {
               to decide which outfit will make me look like the tech version of
               Beyonce. I know, it is a tough job, but someone gotta do it!
             </p>
-            <p className="description">
+            <p className={styles.description}>
               But all jokes aside, I take my work seriously and always strive to
               create clean, efficient, and user-friendly interfaces. My
               attention to detail and can-do attitude ensures that I am
@@ -47,7 +49,7 @@ const AboutPage = () => {
               if you are looking for a tech-savvy problem solver with a knack
               for fashion and a good sense of humor, then look no further!
             </p>
-            <p className="description">
+            <p className={styles.description}>
               Turning to tech was a steep path and being self-taught developer
               was even steeper, but I am learning every day. Fueled by high
               energy levels and boundless enthusiasm, I am easily inspired and
