@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@/styles/Work.module.css";
+import React, { useState } from "react";
 import Link from "next/link";
 
 const WorkSection = () => {
@@ -17,7 +18,7 @@ const WorkSection = () => {
           </p>
           <div className={styles.brewImage}>
             <Image
-              src="/../public/Albela-house.png"
+              src="/Albela-house.png"
               alt="webstie landing page"
               className={styles.himalayanBrewImg}
               width={550}
@@ -89,7 +90,7 @@ const WorkSection = () => {
           </p>
           <div className={styles.brewImage}>
             <Image
-              src="/../public/himalayan-brew.png"
+              src="/himalayan-brew.png"
               alt="webstie landing page"
               className={styles.himalayanBrewImg}
               width={550}
@@ -153,7 +154,7 @@ const WorkSection = () => {
           </p>
           <div className={styles.brewImage}>
             <Image
-              src="/../public/discover-bangalore.png"
+              src="/discover-bangalore.png"
               alt="webstie landing page"
               width={550}
               height={470}
@@ -210,7 +211,7 @@ const WorkSection = () => {
 
         <section className={styles.workSection}>
           <h1 className={`${styles.hbHeading} ${styles["himalayan-brew"]}`}>
-            Omni<span className={styles.cyolorTag1}>food</span>
+            Omni<span className={styles.colorTag1}>food</span>
           </h1>
           <p className={`${styles.hbSubheading} ${styles["himalayan-brew"]}`}>
             Building a fictional Responsive AI-based Meal Subscription Service
@@ -218,7 +219,7 @@ const WorkSection = () => {
           </p>
           <div className={styles.brewImage}>
             <Image
-              src="/../public/omnifood.png"
+              src="/omnifood.png"
               alt="webstie landing page"
               width={550}
               height={470}
@@ -267,7 +268,7 @@ const WorkSection = () => {
               experience in building a responsive website that utilized
               cutting-edge web design techniques.
             </p>
-            <p className="margin-top padding-bottom">
+            <p>
               As the project involved building a website for a fictional
               AI-based meal subscription service, By incorporating relevant
               images and colors, as well as intuitive navigation and ordering
@@ -298,7 +299,7 @@ const WorkSection = () => {
           </p>
           <div className={styles.brewImage}>
             <Image
-              src="/../public/trabook.png"
+              src="/trabook.png"
               alt="webstie landing page"
               width={550}
               height={470}
@@ -310,7 +311,7 @@ const WorkSection = () => {
           >
             Description
           </h2>
-          <div className="paragraph-wrapper">
+          <div className={styles.paragraphWrapper}>
             <p className={`${styles.description1} ${styles["himalayan-brew"]}`}>
               Trabook is a tourism website that I recently created, inspired by
               the modern design principles of Figma. The aim of the project was
@@ -380,7 +381,7 @@ const WorkSection = () => {
           </p>
           <div className={styles.brewImage}>
             <Image
-              src="/../public/wizardry-school.png"
+              src="/wizardry-school.png"
               alt="webstie landing page"
               width={550}
               height={470}
@@ -475,7 +476,7 @@ const WorkSection = () => {
           </p>
           <div className={styles.brewImage}>
             <Image
-              src="/../public/chatgpt-clone.png"
+              src="/chatgpt-clone.png"
               alt="webstie landing page"
               className={styles.himalayanBrewImg}
               width={550}

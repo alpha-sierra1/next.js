@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;1,800&display=swap");
 
+.main {
+  padding-bottom: 5rem;
+  background-color: black;
+}
 .contact {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -13,6 +17,7 @@
   animation-name: slide-up;
   animation-duration: 0.5s;
   animation-delay: 0.3s;
+  margin: 0px;
   animation-fill-mode: forwards;
 }
 
@@ -80,4 +85,176 @@
 
 .contact-column-3:hover {
   transform: translateX(1%);
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1400px) {
+  .contact {
+    padding: 12rem 10rem 14rem 10rem;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .contact {
+    font-size: 5rem;
+    padding-bottom: 9rem;
+    padding-top: 9rem;
+    /* padding: 10rem 9rem 10rem 9rem; */
+  }
+}
+@media only screen and (max-width: 1130px) {
+  .contactHeading {
+    padding-left: 14rem;
+  }
+  .contact2 {
+    padding-left: 14rem;
+  }
+
+  .contactLink {
+    padding-left: 14rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contactHeading {
+    padding-left: 12rem;
+  }
+  .contact2 {
+    padding-left: 12rem;
+  }
+
+  .contactLink {
+    padding-left: 12rem;
+  }
+}
+
+@media only screen and (max-width: 875px) {
+  .contact {
+    padding: 10rem 7rem 10rem 7rem;
+  }
+
+  .contactHeading {
+    padding-left: 12rem;
+  }
+  .contact2 {
+    padding-left: 12rem;
+  }
+
+  .contactLink {
+    padding-left: 12rem;
+  }
+}
+
+@media only screen and (max-width: 844px) {
+  .contact {
+    font-size: 4.5rem;
+  }
+}
+@media only screen and (max-width: 796px) {
+  .contactHeading {
+    padding-left: 10rem;
+  }
+  .contact2 {
+    padding-left: 10rem;
+    padding-right: 8rem;
+    /* font-size: 1rem; */
+  }
+
+  .contactLink {
+    padding-left: 10rem;
+  }
+}
+
+@media only screen and (max-width: 696px) {
+  .contact {
+    font-size: 4rem;
+  }
+  .contactHeading {
+    padding-left: 8rem;
+  }
+  .contact2 {
+    padding-left: 8rem;
+    padding-right: 5rem;
+
+    /* font-size: 1rem; */
+  }
+
+  .contactLink {
+    padding-left: 8rem;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .contact {
+    font-size: 3.5rem;
+  }
+  .contactHeading {
+    font-size: 1.5rem;
+  }
+  .contact2 {
+    font-size: 1rem;
+  }
+  .contactLink {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 594px) {
+  .contact {
+    padding: 7rem 5rem 7rem 5rem;
+  }
+  .contactHeading {
+    padding-left: 6rem;
+  }
+  .contact2 {
+    padding-left: 6rem;
+  }
+
+  .contactLink {
+    padding-left: 6rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .contact {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .contact {
+    font-size: 2.5rem;
+  }
+  .contactHeading {
+    font-size: 1.3rem;
+  }
+  .contact2,
+  .contactLink {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .contact {
+    font-size: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  .contactHeading {
+    padding-left: 4.5rem;
+    padding-right: 3rem;
+  }
+  .contact2 {
+    padding-left: 4.5rem;
+    padding-right: 3rem;
+  }
+
+  .contactLink {
+    padding-left: 4.5rem;
+    padding-right: 3rem;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .contact {
+    padding: 3rem 3rem 3rem 3rem;
+  }
 }

@@ -87,119 +87,6 @@
   gap: 1rem;
 }
 
-/* -------------------------------- */
-/*          WORK             */
-/* -------------------------------- */
-
-.work-section {
-  background-color: black;
-  /* border-bottom: 1px solid #a87317; */
-  position: relative;
-  /* padding-bottom: 20px; */
-  opacity: 0;
-  transform: translateY(70px);
-  animation-name: slide-up;
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes slide-up {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.work-section::after {
-  content: "";
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 85vw;
-  height: 1px;
-  background-color: #a87317;
-}
-
-.brew-image {
-  margin: 2rem auto;
-  width: 95vw;
-  max-width: 796px;
-}
-
-.himalayan-brew-img {
-  width: 100%;
-  transition: all 2s cubic-bezier(0.104, 0.204, 0.492, 1);
-  cursor: pointer;
-}
-
-.himalayan-brew-img:hover {
-  transform: scale(1.1);
-}
-
-.bangalore-img {
-  border: solid 1px rgba(255, 255, 255, 0.297);
-  /* border-radius: 4px; */
-}
-
-.discover-blore {
-  list-style: none;
-}
-
-.himalayan-brew {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-}
-
-.hb-heading {
-  font-size: 4rem;
-  /* padding-top: 8rem; */
-}
-
-.hb-subheading {
-  letter-spacing: 0.5px;
-  line-height: 1.5;
-  /* padding: 0.5rem 20rem 1rem 20rem; */
-}
-.hb-descrp-heading {
-  color: #a87317;
-  margin-bottom: 20px;
-}
-.description-1 {
-  /* padding: 0.5rem 20rem 1rem 20rem; */
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  line-height: 1.5;
-
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.hb-goals {
-  color: #a87317;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.hb-website {
-  transition: transform 0.4s ease-in-out;
-  text-align: center;
-  padding: 30px;
-}
-.hb-website:hover {
-  transform: translateX(3%);
-}
-.hb-website-link {
-  text-decoration: none;
-  color: #a87317;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
-  /* padding: 0.5rem 20rem 0rem 20rem; */
-  /* border-bottom: 1px solid #a87317; */
-}
-
 /* S T Y L E    F I X */
 .container {
   display: flex;
@@ -252,7 +139,6 @@
 
 .working-anchor:hover::before {
   content: "ABOUT";
-
   transform: translateX(5%);
   color: rgb(227, 222, 222);
 }
@@ -307,27 +193,75 @@
   }
 }
 
-.working-about-description {
-  width: 100%;
-  /* outline: 1px solid red; */
-  margin: 0 auto !important;
-  /* display: flex !important; */
-  /* justify-content: space-around !important; */
-  max-width: 90vw;
-  gap: 4rem;
+/* MEIDA QUERY */
+
+@media screen and (max-width: 1100px) {
+  .introduction {
+    font-size: 6rem;
+  }
+  .introduction > * {
+    display: inline;
+    margin-left: 5rem;
+  }
 }
 
-.working-image-div {
-  flex-basis: 40vw;
+@media screen and (max-width: 800px) {
+  .introduction {
+    font-size: 5.5rem;
+  }
+  .introduction > * {
+    display: inline;
+    margin-left: 4rem;
+  }
 }
+@media screen and (max-width: 640px) {
+  .introduction {
+    font-size: 5rem;
+  }
 
-.working-about-image {
-  /* height: 50rem; */
-  width: inherit;
-  transform: translateY(-12%);
-  width: 100%;
+  .main {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.962),
+        rgba(3, 3, 3, 0.449)
+      ),
+      url("../public/aditi.jpg");
+    /* object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* width: 100vw; */
+    background-position: right;
+
+    /* .about-heading {
+    letter-spacing: 0.5px;
+  } */
+
+    /* WHITE SPACE STARTS BEING CREATED AFRER 498px */
+    /* @media screen and (max-width: 498px) {
+    .about-heading {
+      font-size: 4rem; */
+    /* padding: 3rem; */
+  }
 }
-
-.working-about-section {
-  flex-basis: 60vw;
+@media screen and (max-width: 600px) {
+  .introduction {
+    font-size: 4.5rem;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .main {
+    background-position: left 60% center;
+  }
+}
+@media screen and (max-width: 343px) {
+  .introduction {
+    font-size: 3.5rem;
+  }
+  .introduction > * {
+    display: inline;
+    margin-left: 4rem;
+  }
+  .main {
+    background-position: left 100% center;
+  }
 }

@@ -2,11 +2,11 @@ import styles from "@/styles/Contact.module.css";
 import Link from "next/link";
 const ContactPage = () => {
   return (
-    <main>
-      <main style={{ background: "black" }}>
+    <main className={styles.main}>
+      <div>
         <div>
           <h1 className={styles.contact}>
-            Let us make some{" "}
+            Let&apos;s make some{" "}
             <span className={styles.colorTag1}>magic happen!</span>
           </h1>
         </div>
@@ -58,7 +58,7 @@ const ContactPage = () => {
             </Link>
           </div>
         </div>
-      </main>
+      </div>
     </main>
   );
 };
