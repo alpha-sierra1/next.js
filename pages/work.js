@@ -176,18 +176,14 @@ const WorkSection = () => {
           </h2>
           <div className={`${styles.description1} ${styles["himalayan-brew"]}`}>
             {/* <ul className={styles.discoverBlore}> */}
-            <p>Used animations to cycle through different words and colors</p>
-            <p>
-              Used `mix-blend-mode` to invert the hero text animation when it
-              appears on a different background color
-            </p>
-            <p>Styled (including the date input) and built a functional form</p>
-            <p>Mobile-responsive design</p>
-            <p>Various usages of grid and flexbox containers</p>
-            <p>
-              Utilized CSS prefixes in order to allow browser support to
-              animations & transitions
-            </p>
+            Used animations to cycle through different words and colors
+            <br /> Used `mix-blend-mode` to invert the hero text animation when
+            it appears on a different background color
+            <br /> Styled (including the date input) and built a functional form
+            <br /> Mobile-responsive design
+            <br /> Various usages of grid and flexbox containers
+            <br /> Utilized CSS prefixes in order to allow browser support to
+            animations & transitions
             {/* </ul> */}
           </div>
           <div className={styles.hbWebsite}>
@@ -399,51 +395,28 @@ const WorkSection = () => {
           </h2>
           <div className={`${styles.description1} ${styles["himalayan-brew"]}`}>
             {/* <ul className={styles.discoverBlore}> */}
-            <p>
-              To achieve overlaying text on an element that only appears on
-              `:hover`
-            </p>
-            <p>
-              Used a responsive grid for the Course section and media queries
-              with `grid-column` and `nth-child()` to target last two child
-              items to center align them in smaller screens
-            </p>
-            <p>
-              Used `@keyframe` animations that appear on `:hover` for all
-              buttons & text overlays
-            </p>
-            <p>
-              Used `touchstart` with an Event Listener so that all elements can
-              be easily hovered on mobile with a single-tap (thanks to event
-              bubbling)
-            </p>
-            <p>
-              Added sticky navigation that appears at the bottom of the window
-              after hero is no longer in viewport (thanks to
-              `IntersectionObserver`)
-            </p>
-            <p>
-              Created a functional form with logic built through `if else`
-              statements
-            </p>
-            <p>
-              Form has two buttons that execute different logic (and will print
-              different messages based on user input)
-            </p>
-            <p>
-              Added my own form validation so that incomplete & empty answers
-              are not given a successful submission message
-            </p>
-            <p>Use `scrollIntoView()` to allow smooth scrolling</p>
-            <p>
-              Added cards to represent each Hogwarts house that allows toggling
-              between them to display different House content
-            </p>
-            <p>
-              - Use nested `for` loops to loop through each Hogwarts card as a
-              button and then loop through it to show the correct content for
-              each
-            </p>
+            To achieve overlaying text on an element that only appears on
+            `:hover` <br />
+            Used a responsive grid for the Course section and media queries with
+            `grid-column` and `nth-child()` to target last two child items to
+            center align them in smaller screens <br />
+            Used `@keyframe` animations that appear on `:hover` for all buttons
+            & text overlays <br />
+            Used `touchstart` with an Event Listener so that all elements can be
+            easily hovered on mobile with a single-tap (thanks to event
+            bubbling) <br />
+            Added sticky navigation that appears at the bottom of the window
+            after hero is no longer in viewport (thanks to
+            `IntersectionObserver`) <br />
+            Created a functional form with logic built through `if else`
+            statements Form has two buttons that execute different logic (and
+            will print different messages based on user input) <br />
+            Added my own form validation so that incomplete & empty answers are
+            not given a successful submission message <br />
+            Added cards to represent each Hogwarts house that allows toggling
+            between them to display different House content <br /> Used nested
+            `for` loops to loop through each Hogwarts card as a button and then
+            loop through it to show the correct content for each
             {/* </ul> */}
           </div>
           <div className={styles.hbWebsite}>
