@@ -62,6 +62,8 @@
   width: 100%;
   transition: all 2s cubic-bezier(0.104, 0.204, 0.492, 1);
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .himalayanBrewImg:hover {
@@ -75,6 +77,10 @@
 
 .discoverBlore {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .himalayan-brew {
@@ -110,6 +116,7 @@
   letter-spacing: 0.5px;
   line-height: 1.5;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   /* gap: -50px; */
 }
@@ -165,6 +172,9 @@
   }
 }
 @media screen and (max-width: 796px) {
+  .himalayanBrewImg {
+    height: 80vh;
+  }
   .description1 p {
     padding: 0 30px;
   }
@@ -175,14 +185,16 @@
     padding: 0 30px;
   }
 }
+
 @media screen and (max-width: 640px) {
   .himalayanBrewImg {
-    width: 80vw;
+    /* width: 85vw; */
     cursor: pointer;
+    height: 75vh;
     margin: 0 auto;
     padding: 20px;
     overflow: hidden;
-    align-items: center;
+    text-align: center;
   }
 
   .brewImg:nth-child(3) {
@@ -220,5 +232,9 @@
 @media screen and (max-width: 440px) {
   .himalayanBrewImg {
     width: 80vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
   }
 }

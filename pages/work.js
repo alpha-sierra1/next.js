@@ -175,26 +175,20 @@ const WorkSection = () => {
             Goals
           </h2>
           <div className={`${styles.description1} ${styles["himalayan-brew"]}`}>
-            <ul className={styles.discoverBlore}>
-              <li>
-                Used animations to cycle through different words and colors
-              </li>
-              <li className="margin-top">
-                Used `mix-blend-mode` to invert the hero text animation when it
-                appears on a different background color
-              </li>
-              <li className="margin-top">
-                Styled (including the date input) and built a functional form
-              </li>
-              <li className="margin-top">Mobile-responsive design</li>
-              <li className="margin-top">
-                Various usages of grid and flexbox containers
-              </li>
-              <li className="margin-top padding-bottom">
-                Utilized CSS prefixes in order to allow browser support to
-                animations & transitions
-              </li>
-            </ul>
+            {/* <ul className={styles.discoverBlore}> */}
+            <p>Used animations to cycle through different words and colors</p>
+            <p>
+              Used `mix-blend-mode` to invert the hero text animation when it
+              appears on a different background color
+            </p>
+            <p>Styled (including the date input) and built a functional form</p>
+            <p>Mobile-responsive design</p>
+            <p>Various usages of grid and flexbox containers</p>
+            <p>
+              Utilized CSS prefixes in order to allow browser support to
+              animations & transitions
+            </p>
+            {/* </ul> */}
           </div>
           <div className={styles.hbWebsite}>
             <Link
@@ -404,55 +398,53 @@ const WorkSection = () => {
             Goals
           </h2>
           <div className={`${styles.description1} ${styles["himalayan-brew"]}`}>
-            <ul className={styles.discoverBlore}>
-              <li>
-                To achieve overlaying text on an element that only appears on
-                `:hover`
-              </li>
-              <li className="margin-top">
-                Used a responsive grid for the Course section and media queries
-                with `grid-column` and `nth-child()` to target last two child
-                items to center align them in smaller screens
-              </li>
-              <li className="margin-top">
-                Used `@keyframe` animations that appear on `:hover` for all
-                buttons & text overlays
-              </li>
-              <li className="margin-top">
-                Used `touchstart` with an Event Listener so that all elements
-                can be easily hovered on mobile with a single-tap (thanks to
-                event bubbling)
-              </li>
-              <li className="margin-top">
-                Added sticky navigation that appears at the bottom of the window
-                after hero is no longer in viewport (thanks to
-                `IntersectionObserver`)
-              </li>
-              <li className="margin-top padding-bottom">
-                Created a functional form with logic built through `if else`
-                statements
-              </li>
-              <li className="margin-top padding-bottom">
-                Form has two buttons that execute different logic (and will
-                print different messages based on user input)
-              </li>
-              <li className="margin-top padding-bottom">
-                Added my own form validation so that incomplete & empty answers
-                are not given a successful submission message
-              </li>
-              <li className="margin-top padding-bottom">
-                Use `scrollIntoView()` to allow smooth scrolling
-              </li>
-              <li className="margin-top padding-bottom">
-                Added cards to represent each Hogwarts house that allows
-                toggling between them to display different House content
-              </li>
-              <li className="margin-top padding-bottom">
-                - Use nested `for` loops to loop through each Hogwarts card as a
-                button and then loop through it to show the correct content for
-                each
-              </li>
-            </ul>
+            {/* <ul className={styles.discoverBlore}> */}
+            <p>
+              To achieve overlaying text on an element that only appears on
+              `:hover`
+            </p>
+            <p>
+              Used a responsive grid for the Course section and media queries
+              with `grid-column` and `nth-child()` to target last two child
+              items to center align them in smaller screens
+            </p>
+            <p>
+              Used `@keyframe` animations that appear on `:hover` for all
+              buttons & text overlays
+            </p>
+            <p>
+              Used `touchstart` with an Event Listener so that all elements can
+              be easily hovered on mobile with a single-tap (thanks to event
+              bubbling)
+            </p>
+            <p>
+              Added sticky navigation that appears at the bottom of the window
+              after hero is no longer in viewport (thanks to
+              `IntersectionObserver`)
+            </p>
+            <p>
+              Created a functional form with logic built through `if else`
+              statements
+            </p>
+            <p>
+              Form has two buttons that execute different logic (and will print
+              different messages based on user input)
+            </p>
+            <p>
+              Added my own form validation so that incomplete & empty answers
+              are not given a successful submission message
+            </p>
+            <p>Use `scrollIntoView()` to allow smooth scrolling</p>
+            <p>
+              Added cards to represent each Hogwarts house that allows toggling
+              between them to display different House content
+            </p>
+            <p>
+              - Use nested `for` loops to loop through each Hogwarts card as a
+              button and then loop through it to show the correct content for
+              each
+            </p>
+            {/* </ul> */}
           </div>
           <div className={styles.hbWebsite}>
             <Link
