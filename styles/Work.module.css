@@ -254,7 +254,7 @@
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
   .himalayanBrewImg {
     width: 80vw;
     height: 30vh;
